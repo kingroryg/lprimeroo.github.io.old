@@ -18,7 +18,7 @@ _Originally started as a post on my Mastodon: [https://infosec.exchange/@lprimer
 
 6. <a href="https://blog.quarkslab.com/status-of-post-quantum-cryptography-implementation.html" target="_blank">Status of Post-Quantum Cryptography Implementation</a>
 
-7. <a href="https://blog.quarkslab.com/status-of-post-quantum-cryptography-implementation.html" target="_blank">Why I hate CBC-MAC</a>
+7. <a href="https://blog.cryptographyengineering.com/2013/02/15/why-i-hate-cbc-mac/" target="_blank">Why I hate CBC-MAC</a>
 
 8. <a href="https://words.filippo.io/dispatches/reconstruct-vs-validate/" target="_blank">Reconstruct Instead of Validating</a>
 
