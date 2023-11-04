@@ -218,6 +218,3 @@ In machine learning, KL divergence is used to assess the dissimilarity between p
 **Q5: Can you provide a real-world example of KL divergence?**
 
 Suppose you have a machine learning model that predicts the probability distribution of diseases in a population. The true distribution is based on medical records. KL divergence can help quantify how well the model's predictions align with the actual distribution, highlighting areas where the model needs improvement.
-
-
-That wraps up the explanation of KL divergence. Read the next chapter about Kolmogorov complexity <a href="https://smunshi.net/posts/kolmogorov-complexity">here</a>.
