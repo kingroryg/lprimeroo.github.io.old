@@ -2,7 +2,7 @@
 layout: post
 ---
 
-This is a rough checklist of the things to look out when securing an infrastructure. It is by no means a definitive guide and is meant to serve as a checklist for interview prep. Some would call this a 1000 ft view of the security of an infratructure. Additions to this checklist are welcome (please use the comments section).
+This is a rough checklist of the things to look out when securing an infrastructure. It is by no means a definitive guide and is meant to serve as a checklist for interview prep. Some would call this a 1000 ft view of the security of an infratructure. Additions to this checklist are welcome.
 
 _Disclaimer: I wrote this back when I was just starting out in the industry. Please point out stuff that you feel isn't relevant given today's security landscape._
 
