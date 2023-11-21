@@ -5,10 +5,12 @@ entries:
   - title: me
     entries:
       - title: twitter / x
-        url: https://twitter.com/Lprimer0
+        url: https://twitter.com/pwnshx
       - title: email
         url: mailto:sarthakm@pm.me
-      - title: "currently @ <a href='https://aws.amazon.com/'>AWS</a> doing product security for AI services amongst other things..."
+      - title: "currently @ <a href='https://aws.amazon.com/'>AWS</a> doing product security for AI"
+      - title: "also created <a href='https://hitmap.dev/'>Hitmap</a>"
+      
 
   - title: posts
     post_list:
