@@ -4,8 +4,7 @@
 entries:
   - title: me
     entries:
-      - title: twitter / x
-        url: https://twitter.com/pwnshx
+      - title: "<a href='https://twitter.com/pwnshx'>twitter / x</a>, <a href='https://infosec.exchange/@lprimero'>fediverse</a>"
       - title: email
         url: mailto:sarthakm@pm.me
       - title: "currently @ <a href='https://aws.amazon.com/'>AWS</a> doing product security for AI"
