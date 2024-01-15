@@ -7,7 +7,7 @@ entries:
       - title: "<a href='https://twitter.com/pwnshx'>twitter / x</a>, <a href='https://infosec.exchange/@lprimero'>fediverse</a>"
       - title: email
         url: mailto:sarthakm@pm.me
-      - title: "currently @ <a href='https://aws.amazon.com/'>AWS</a> doing product security for AI"
+      - title: "currently @ <a href='https://aws.amazon.com/' style='color:#ec912d;'>AWS</a> doing product security for AI"
       # - title: "built <a href='https://unsql.ai'>unsql</a>"
       
 
