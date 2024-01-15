@@ -7,7 +7,8 @@ entries:
       - title: "<a href='https://twitter.com/pwnshx'>twitter / x</a>, <a href='https://infosec.exchange/@lprimero'>fediverse</a>"
       - title: email
         url: mailto:sarthakm@pm.me
-      - title: "currently @ <a href='https://aws.amazon.com/' style='color:#ec912d;'>AWS</a> doing product security for AI"
+      - title: "product security for AI @ <a href='https://aws.amazon.com/' style='color:#ec912d;'>AWS</a>"
+      - title: "prev.- <a href='https://www.autodesk.com/trust/security' style='color:rgb(48, 120, 193);'>Autodesk</a>, <a href='https://www.nasa.gov/ames/' style='color:#0b3d91;'>NASA Ames</a>, <a href='https://www.cmu.edu/' style='color:#c41230;'>CarnegieMellon</a>"
       # - title: "built <a href='https://unsql.ai'>unsql</a>"
       
 
