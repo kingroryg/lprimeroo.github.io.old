@@ -77,16 +77,16 @@ This defines the Kolmogorov complexity of a string as the length of the shortest
 
 To summarize, we can never prove that the shortest program we've obtained is indeed the shortest program.
 
-## Language Dependency
+## Eliminating Language Dependency
 
-Currently, we have a strong dependency on the type of language being used to describe the string and that doesn't attest this mathematical representation with consistency. In other words, we need to define complexity such that the definition does not change based on the $$L$$ we pick. Changing from Python to Javascript in the example above changed our values. So, how do we generalize this and make it language-agnostic? To alleviate this issue, let's assume that there exists a universal language $$U$$ such that it always gives us the shortest description length for all strings. This would imply,
+Currently, we have a strong dependency on the type of language being used to describe the string and that doesn't attest this mathematical representation with consistency. In other words, we need to define complexity such that the definition does not change based on the $$L$$ we pick and depends only on the string. Changing from Python to Javascript in the example above changed our values. So, how do we generalize this and make it language-agnostic? To alleviate this issue, let's assume that there exists a universal language $$U$$ such that it always gives us the shortest description length for all strings. This would imply,
 
 
 $$
 KC_{U}(x) \leq KC_{L}(x) + C
 $$
 
-
+In other words, the complexity of describing a string $$x$$ using $$U$$ versus using an arbitrary language $$L$$ differs by at most a constant factor, $$C$$.
 
 
 
