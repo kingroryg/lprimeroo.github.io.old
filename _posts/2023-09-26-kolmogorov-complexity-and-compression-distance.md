@@ -68,14 +68,14 @@ $$
 <hr />
 
 <div>
-Hence, the Kolmogorov complexity of a string is the length of the shortest program outputting that string. The idea is that Kolmogorov complexity gives us a way to describe the randomness of a string. A string with its Kolmogorov complexity equal to the length of the string will be more random than the string with its Kolmogorov complexity less than the length of the string. Moreover, a string cannot be compressed if $$KC(x) \geq |x|$$. Another thing to note is that Kolmogorov complexity of a string cannot be computed. There cannot exist a computer that will always guarantee the Kolmogorov complexity for all the strings. It is not a computational problem but rather a fundamentally theoretical one.  To better understand that, let's analyze the <a href="https://en.wikipedia.org/wiki/Interesting_number_paradox">interesting number paradox</a>. 
+This defines the Kolmogorov complexity of a string as the length of the shortest program outputting that string. The idea is that Kolmogorov complexity gives us a way to describe the randomness of a string. A string with its Kolmogorov complexity equal to the length of the string will be more random than the string with its Kolmogorov complexity less than the length of the string. Moreover, a string cannot be compressed if its $$KC(x) \geq |x|$$ Another thing to note is that Kolmogorov complexity of a string cannot be computed. There cannot exist a computer that will always guarantee the Kolmogorov complexity for all the strings. It is not a computational problem but rather a fundamentally theoretical one.  To better understand that, take a look at the <a href="https://en.wikipedia.org/wiki/Interesting_number_paradox">interesting number paradox</a>. 
 </div>
 
 
 
 > The interesting number paradox revolves around the claim that all  natural numbers are interesting. 1 is the first number, so that is  interesting. 2 is the first even number. 3 is the first odd prime  number. 4 is interesting because 4=2×2 and 4=2+2. We can continue in  this fashion and find interesting properties for many numbers. At some  point we might come to some number that does not seem to have an  interesting property. We can call that number the first uninteresting  number. But that, in itself, is an interesting property. In conclusion,  the uninteresting number is, in fact, interesting! [[source](https://nautil.us/kolmogorov-complexity-and-our-search-for-meaning-237158/)]
 
-
+To summarize, we can never prove that the shortest program we've obtained is indeed the shortest program.
 
 ## Language Dependency
 
