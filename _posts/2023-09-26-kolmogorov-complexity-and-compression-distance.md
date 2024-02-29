@@ -86,14 +86,28 @@ $$
 KC_{U}(x) \leq KC_{L}(x) + C
 $$
 
-In other words, the complexity of describing a string $$x$$ using $$U$$ versus using an arbitrary language $$L$$ differs by at most a constant factor, $$C$$. However, let's bring back the paradox we discussed above. According to that paradox, $$U$$ cannot exist or $$U$$ cannot provide shorter descriptions than every arbitrary $$L$$. To address this issue, we place constraints on the set of valid description languages, allowing for the emergence of a single universal description method $$U$$. Enter Turing Machine ($$TM$$), which is a fundamental theoretical concept/computer/model utilized to analyze properties of algorithms and determine which computational problems can or cannot be feasibly solved. Any $$TM$$ that is capable of simulating every other $$TM$$, is a Universal Turing Machine, $$UTM$$. Couple of pointers to consider here:
+In other words, the complexity of describing a string $$x$$ using $$U$$ versus using an arbitrary language $$L$$ differs by at most a constant factor, $$C$$. However, let's bring back the paradox we discussed above. According to that paradox, $$U$$ cannot exist or $$U$$ cannot provide shorter descriptions than every arbitrary $$L$$. To address this issue, we place constraints on the set of valid description languages, allowing for the emergence of a single universal description method $$U$$. Enter Turing Machine ($$TM$$), which is a fundamental theoretical concept/computer/model utilized to analyze properties of algorithms and determine which computational problems can or cannot be feasibly solved. Couple of pointers to consider here:
 
-* For a given Turing machine $$TM$$, we can define $$H(TM)$$ as the set of all input strings $$w$$ for which $$TM$$ halts and terminates, regardless of whether a final or non-final state is reached (See <a href="https://en.wikipedia.org/wiki/Halting_problem" target="_blank">this</a>).
-* The well-known halting problem is defined as the set of all pairs $$(TM, w)$$ such that $$w$$ is an element of $$H(TM)$$, where $$H(TM)$$ represents the set of inputs on which the Turing machine $$TM$$ halts (OR) $$KC(x) = \{(TM, w) : w \in H(TM)\}$$ .
-* 
-
-
-
+* Halting problem (on a Turing Machine model) is a well-known problem of determining from a description of an arbitrary computer program and an input, whether the program will finish running, or continue to run forever _[<a href="https://en.wikipedia.org/wiki/Halting_problem">wikipedia</a>]_. 
+* Mathematically, the halting problem is defined as the set of all pairs $$(TM, w)$$ such that $$w$$ is an element of $$H(TM)$$, where $$H(TM)$$ represents the set of inputs on which the Turing machine $$TM$$ halts (OR) $$KC(x) = \{(TM, w) : w \in H(TM)\}$$ .
+* The above representation implies that, for a Turing Machine, there are certain inputs it halts on and certain other inputs we dont know if it does.
+* Therefore, if we model our universal language $$U$$ as a Turing Machine that we know halts on certain inputs; we can avoid the paradox explained above!
 
 
-Basically, the theorem says that the Kolmogorov complexity of a string cannot be computed. 
+Restating our observations, we can say that for the Kolmogorov Complexity to be language-agnostic; there needs to be a universal language $$U$$ that simulates a Turing Machine $$TM$$ that on every input $$w$$, halts with $$U(w) = x$$ as the output. That gives us the true language-agnostic definition of Kolmogorov Complexity as follows:
+
+$$
+KC_{U}(x) = \min \{|(TM, w)| : \text{TM halts on input w and outputs x} \}
+$$
+
+
+## Normalized Distances
+
+Having defined Kolmogorov Complexity, we can further use it to estimate how similar two strings/objects are. **Normalized Information Distance** between two strings can be defined as:
+
+$$
+NID(x, y) = \frac{KC(x, y) - \min (KC(x), KC(y))}{\max(KC(x), KC(y))}
+$$
+
+where $$KC(x, y)$$ is the Kolmogoroc complexity after concatenating $$x$$ and $$y$$.
+
