@@ -89,7 +89,7 @@ $$
 In other words, the complexity of describing a string $$x$$ using $$U$$ versus using an arbitrary language $$L$$ differs by at most a constant factor, $$C$$. However, let's bring back the paradox we discussed above. According to that paradox, $$U$$ cannot exist or $$U$$ cannot provide shorter descriptions than every arbitrary $$L$$. To address this issue, we place constraints on the set of valid description languages, allowing for the emergence of a single universal description method $$U$$. Enter Turing Machine ($$TM$$), which is a fundamental theoretical concept/computer/model utilized to analyze properties of algorithms and determine which computational problems can or cannot be feasibly solved. Couple of pointers to consider here:
 
 * Halting problem (on a Turing Machine model) is a well-known problem of determining from a description of an arbitrary computer program and an input, whether the program will finish running, or continue to run forever _[<a href="https://en.wikipedia.org/wiki/Halting_problem">wikipedia</a>]_. 
-* Mathematically, the halting problem is defined as the set of all pairs $$(TM, w)$$ such that $$w$$ is an element of $$H(TM)$$, where $$H(TM)$$ represents the set of inputs on which the Turing machine $$TM$$ halts (OR) $$KC(x) = \{(TM, w) : w \in H(TM)\}$$ .
+* Mathematically, the halting problem is defined as the set of all pairs $$(TM, w)$$ such that $$w$$ is an element of $$H(TM)$$, where $$H(TM)$$ represents the set of inputs on which the Turing machine $$TM$$ halts (OR) $$ \{(TM, w) : w \in H(TM)\}$$ .
 * The above representation implies that, for a Turing Machine, there are certain inputs it halts on and certain other inputs we dont know if it does.
 * Therefore, if we model our universal language $$U$$ as a Turing Machine that we know halts on certain inputs; we can avoid the paradox explained above!
 
@@ -109,5 +109,18 @@ $$
 NID(x, y) = \frac{KC(x, y) - \min (KC(x), KC(y))}{\max(KC(x), KC(y))}
 $$
 
-where $$KC(x, y)$$ is the Kolmogoroc complexity after concatenating $$x$$ and $$y$$.
+where $$KC(x, y)$$ is the Kolmogorov complexity after concatenating $$x$$ and $$y$$.
 
+Whereasm **Normalized Compression Distance** can be defined as:
+
+$$
+NCD(x, y) = \frac{C(x, y) - \min (C(x), C(y))}{\max(C(x), C(y))}
+$$
+
+where $$C(x, y)$$ is the compression length after concatenating $$x$$ and $$y$$.
+
+_It has been demonstrated that $$KC(x)$$, can be reasonably estimated by the number of bits required to encode $$x$$ using a compressor $$C$$ (such as gzip)_
+
+<hr />
+
+Aaand Alice was finally able to outwit Bob with her newfound knowledge. ✌️
