@@ -89,7 +89,8 @@ $$
 In other words, the complexity of describing a string $$x$$ using $$U$$ versus using an arbitrary language $$L$$ differs by at most a constant factor, $$C$$. However, let's bring back the paradox we discussed above. According to that paradox, $$U$$ cannot exist or $$U$$ cannot provide shorter descriptions than every arbitrary $$L$$. To address this issue, we place constraints on the set of valid description languages, allowing for the emergence of a single universal description method $$U$$. Enter Turing Machine ($$TM$$), which is a fundamental theoretical concept/computer/model utilized to analyze properties of algorithms and determine which computational problems can or cannot be feasibly solved. Any $$TM$$ that is capable of simulating every other $$TM$$, is a Universal Turing Machine, $$UTM$$. Couple of pointers to consider here:
 
 * For a given Turing machine $$TM$$, we can define $$H(TM)$$ as the set of all input strings $$w$$ for which $$TM$$ halts and terminates, regardless of whether a final or non-final state is reached (See <a href="https://en.wikipedia.org/wiki/Halting_problem" target="_blank">this</a>).
-* The well-known halting problem is defined as the set of all pairs $$(TM, w)$$ such that $$w$$ is an element of $$H(TM)$$, where $$H(TM)$$ represents the set of inputs on which the Turing machine $$TM$$ halts.
+* The well-known halting problem is defined as the set of all pairs $$(TM, w)$$ such that $$w$$ is an element of $$H(TM)$$, where $$H(TM)$$ represents the set of inputs on which the Turing machine $$TM$$ halts (OR) $$KC(x) = \{(TM, w) : w \in H(TM)\}$$ .
+* 
 
 
 
