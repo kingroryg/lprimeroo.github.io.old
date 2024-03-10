@@ -3,7 +3,7 @@ layout: post
 ---
 
 As of March 2024, Sagemaker studio notebooks use `conda-forge` and come pre-installed with CUDA 11.2 which was released in 2020. While AWS may think that CUDA 11.2 is all we need, most of the newer LoRA, QLoRA, and other quanitzation-based libraries like `accelerate` and `bitesnadbytes` don't support it.
-To top it off, Sagemaker makes it super-confusing and mind-numbingly silly to make any changes via `conda`. After multiple hair-pulling hours, I was able to get the notebook use CUDA 11.8 using the following bash snippet. Good luck.
+To top it off, Sagemaker makes it super-confusing and mind-numbingly silly to make any changes via `conda`. After multiple hair-pulling hours, I was able to get the notebooks to use CUDA 11.8 using the following bash snippet. Good luck.
 
 
 ```sh
