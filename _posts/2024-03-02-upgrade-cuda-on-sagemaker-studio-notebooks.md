@@ -18,7 +18,7 @@ export LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/
 conda list | grep torch
 ```
 
-Check the build, it should now have `cu118` within it.
+Check the build version, it should now have `cu118` within it.
 
 ```
 agemaker-user@default:~$ conda list | grep torch
