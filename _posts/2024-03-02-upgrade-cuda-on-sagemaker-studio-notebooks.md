@@ -15,13 +15,12 @@ pip uninstall torchvision
 conda remove pytorch-gpu
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 export LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda-11.8/lib64/
-conda list | grep torch
 ```
 
 Check the build version, it should now have `cu118` within it.
 
 ```
-agemaker-user@default:~$ conda list | grep torch
+sagemaker-user@default:~$ conda list | grep torch
 pytorch-lightning         2.0.9              pyhd8ed1ab_0    conda-forge
 pytorch-metric-learning   1.7.3              pyhd8ed1ab_0    conda-forge
 torch                     2.2.1+cu118              pypi_0    pypi
