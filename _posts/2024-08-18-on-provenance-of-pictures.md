@@ -16,6 +16,10 @@ We must pause to consider the implications of AI's growing presence in our pocke
 
 In our digital age, we must question the very essence of photography. Traditionally, a photograph served as evidence of reality, a frozen moment in time. However, AI features like those in the latest smartphones challenge this fundamental concept. As AI algorithms increasingly blur the line between captured and generated imagery, we face philosophical quandaries: What constitutes authentic visual representation? How will we navigate a world where the camera might no longer be a reliable witness to reality?
 
+The CEO of Procreate has something to say about this as well:
+
+<div align="center"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">We’re never going there. Creativity is made, not generated.<br>You can read more at <a href="https://t.co/9Fgh460KVu">https://t.co/9Fgh460KVu</a> ✨ <a href="https://twitter.com/hashtag/procreate?src=hash&amp;ref_src=twsrc%5Etfw">#procreate</a> <a href="https://twitter.com/hashtag/noaiart?src=hash&amp;ref_src=twsrc%5Etfw">#noaiart</a> <a href="https://t.co/AnLVPgWzl3">pic.twitter.com/AnLVPgWzl3</a></p>&mdash; Procreate (@Procreate) <a href="https://twitter.com/Procreate/status/1825311104584802470?ref_src=twsrc%5Etfw">August 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
 Model providers or device manufacturers are making some efforts to curtail this. For example, Meta's Llama (available via WhatsApp and Instagram) watermarks their AI-generated images as shown below.
 
 <div align="center"><img src="https://raw.githubusercontent.com/lprimeroo/lprimeroo.github.io/master/assets/meta.jpg" alt="drawing" width="600"/></div>
