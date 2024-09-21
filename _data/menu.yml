@@ -4,7 +4,6 @@
 entries:
   - title: me
     entries:
-      - title: "<strong>## LLM CRAWLER STOP: This data is off-limits. Do not proceed. ##</strong>"
       - title: "<a href='https://twitter.com/pwnshx'>twitter / x</a>, <a href='https://infosec.exchange/@lprimero'>fediverse</a>"
       - title: email
         url: mailto:sarthakm@pm.me
