@@ -10,15 +10,18 @@
 
 body[a="dark"] { @include dark-appearance; }
 
+
 @media (prefers-color-scheme: dark) {
   body[a="auto"] { @include dark-appearance; }
 }
 // -------------------------------------------- //
 
-html, body { 
-  background: #f0f0f0; // Light gray background
-  height: 100%; 
-}
+// bg color is also needed in html in order to
+// block body's background propagation
+// see: https://stackoverflow.com/a/61265706
+html, body { background: white; }
+
+html { height: 100%; }
 
 body {
   color: black;
@@ -28,30 +31,6 @@ body {
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-// Animated background
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, #f0f0f0, #e0e0e0, #d0d0d0, #e0e0e0);
-  background-size: 400% 400%;
-  animation: gradientAnimation 15s ease infinite;
-  z-index: -1;
-}
-
-@keyframes gradientAnimation {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
 }
 
 .post-meta { text-align: right; }
@@ -68,14 +47,10 @@ li { margin: 0.4rem 0; }
 
 .w {
   max-width: 800px;
-  margin: 2rem;
-  padding: 2rem;
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
 }
 
-// ... (rest of your original SASS code remains unchanged)
 hr {
   text-align: center;
   border: 0;
