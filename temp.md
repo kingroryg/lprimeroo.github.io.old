@@ -1,4 +1,4 @@
 ---
 layout: post
-title: Use LLMs to defeat Internet Censorship Measurement Studies
+title: Part 1 - The Alignment Problem
 ---
