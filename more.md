@@ -5,7 +5,7 @@ title: publications, press, & talks
 
 <h2>Whitepapers</h2>
 <ul>
-  <li><a href="https://www.law.upenn.edu/live/files/11653-the-effect-of-ad-blocking-and-anti-tracking-on" target="_blank">[Collaborator] The Effect of Ad-Blocking and Anti-Tracking on Consumer Behavior</a>&nbsp;[2022]<br><em>Economics of Digital Services</em></li>
+  <li><a href="https://www.law.upenn.edu/live/files/11653-the-effect-of-ad-blocking-and-anti-tracking-on" target="_blank">The Effect of Ad-Blocking and Anti-Tracking on Consumer Behavior</a>&nbsp;[2022]<br><em>Economics of Digital Services</em></li>
 </ul>
 
 <h2>Research</h2>
