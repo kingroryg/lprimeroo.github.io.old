@@ -3,16 +3,10 @@ layout: page
 title: publications, press, & talks
 ---
 
-<h2>Whitepapers</h2>
-<ul>
-  <li><a href="https://www.law.upenn.edu/live/files/11653-the-effect-of-ad-blocking-and-anti-tracking-on" target="_blank">The Effect of Ad-Blocking and Anti-Tracking on Consumer Behavior</a>&nbsp;[2022]<br><em>Economics of Digital Services</em></li>
-</ul>
+A company that I started with a friend (now acquired): <a href='https://unsql.ai'>https://unsql.ai</a>
+A film studio that I started with another friend: <a href='https://vadafilms.com'>https://vadafilms.com</a>
 
-<h2>Research</h2>
-<ul>
-  <li><a href="https://chapel-lang.org/publications/cug2018-chapel.pdf" target="_blank">[Collaborator] Chapel Comes of Age: Making Scalable Programming Productive</a>&nbsp;[2018]<br><em>Cray User Group</em></li>
-</ul>
-
+Research: <a href="https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ">https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ</a>
 
 <h2>Press</h2>
 <ul>
