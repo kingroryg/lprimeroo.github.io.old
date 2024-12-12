@@ -3,8 +3,8 @@ layout: page
 title: publications, press, & talks
 ---
 
-A company that I started with a friend (now acquired): <a href='https://unsql.ai'>https://unsql.ai</a>
-A film studio that I started with another friend: <a href='https://vadafilms.com'>https://vadafilms.com</a>
+A company that I started with a friend (now acquired): <a href='https://unsql.ai'>https://unsql.ai</a><br />
+A film studio that I started with another friend (stay tuned): <a href='https://vadafilms.com'>https://vadafilms.com</a>
 
 Research: <a href="https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ">https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ</a>
 
