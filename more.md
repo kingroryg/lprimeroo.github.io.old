@@ -8,6 +8,7 @@ A film studio that I started with another friend (stay tuned): <a href='https://
 
 Some Research: <a href="https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ">https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ</a>
 
+<!--
 <h2>Press</h2>
 <ul>
   <li><a href="https://www.msn.com/en-us/news/technology/how-artificial-intelligence-is-rapidly-changing-cybersecurity-according-to-project-security-engineer-sarthak-munshi/ar-AA1t4AkI" target="_blank">How Artificial Intelligence Is Rapidly Changing Cybersecurity</a><br><em>MSN</em></li>
@@ -18,3 +19,4 @@ Some Research: <a href="https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ
 <ul>
   <li><a href="https://www.youtube.com/watch?v=8gZSfT4y44w" target="_blank">Research Talk: Tightly CCA-Secure Encryption Without Pairings </a><br><em>Stanford Scholar</em></li>
 </ul>
+-->
