@@ -6,7 +6,7 @@ title: more...
 A company that I started with a friend: <a href='https://unsql.ai'>https://unsql.ai</a><br /><br />
 A film studio that I started with another friend (stay tuned): <a href='https://vadafilms.com'>https://vadafilms.com</a>
 
-Some Research: <a href="https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ">https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ</a>
+<!-- Some Research: <a href="https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ">https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ</a> -->
 
 <!--
 <h2>Press</h2>
