@@ -7,7 +7,7 @@ entries:
       - title: "<a href='https://x.com/kingroryg'>x</a>, <a rel='me' href='https://infosec.exchange/@lprimero'>mastodon</a>, <a href='mailto:sarthakm@pm.me'>email</a>"
       - title: "security @ <a href='https://aws.amazon.com/' style='color:#ec912d;'>AWS</a>"
       # - title: "previously: <a href='https://www.autodesk.com/trust/security' style='color:rgb(48, 120, 193);'>autodesk</a>, <a href='https://www.nasa.gov/ames/' style='color:#0b3d91;'>nasa ames</a>, <a href='https://www.cmu.edu/' style='color:#c41230;'>carnegie mellon</a>"
-      - title: "<a href='https://smunshi.net/more'>more...</a>"
+      # - title: "<a href='https://smunshi.net/more'>more...</a>"
       
 
   - title: posts
