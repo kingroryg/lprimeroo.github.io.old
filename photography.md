@@ -5,7 +5,6 @@ title: Photography
 
 I use a <a href="http://camera-wiki.org/wiki/Mamiya_M645" target="_blank">Mamiya M645</a>, which is a medium-format SLR film camera for my photography. Mamiya stopped making these in 1975. I use it with the Mamiya Sekor C 80mm f/2.8 and the Sekor C 75-150mm f/4.5 lenses. For films, I prefer using <a href="https://grainsandsuch.co/kodak-portra-400-35-120">Kodak Portra 400</a>, <a href="https://www.analog.cafe/r/kodak-ektar-100-film-review-59np">Kodak Ektar 100</a>, and <a href="https://www.shopmoment.com/reviews/ilford-hp5-400-film-review">Ilford HP5 400</a>. I don't like to edit my pictures in lightroom, photoshop, or any other crapware, to preserve the sanctity of film photography. I use a variety of film scanners from Noritsu, Nikon, and Epson (none of which I own).
 
-A film studio that I started with a friend: <a href='https://vadafilms.com'>Vada Films</a>
 
 ## Photo Gallery
 
@@ -119,16 +118,6 @@ A film studio that I started with a friend: <a href='https://vadafilms.com'>Vada
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.caption-container {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  color: white;
-  padding: 10px 0;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .image-grid {
@@ -159,72 +148,31 @@ A film studio that I started with a friend: <a href='https://vadafilms.com'>Vada
     <img class="modal-image" id="modalImage">
   </div>
   <a class="next" onclick="changeImage(1)">&#10095;</a>
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
 </div>
 
 <script>
 // Sample image data - replace with your actual images
 const images = [
-  {
-    thumbnail: 'https://via.placeholder.com/300x200?text=Photo+1',
-    fullsize: 'https://via.placeholder.com/1200x800?text=Photo+1+Full+Size',
-    caption: 'Photo 1 - Shot on Kodak Portra 400'
-  },
-  {
-    thumbnail: 'https://via.placeholder.com/300x200?text=Photo+2',
-    fullsize: 'https://via.placeholder.com/1200x800?text=Photo+2+Full+Size',
-    caption: 'Photo 2 - Shot on Ilford HP5 400'
-  },
-  {
-    thumbnail: 'https://via.placeholder.com/300x200?text=Photo+3',
-    fullsize: 'https://via.placeholder.com/1200x800?text=Photo+3+Full+Size',
-    caption: 'Photo 3 - Shot on Kodak Ektar 100'
-  },
-  {
-    thumbnail: 'https://via.placeholder.com/300x200?text=Photo+4',
-    fullsize: 'https://via.placeholder.com/1200x800?text=Photo+4+Full+Size',
-    caption: 'Photo 4 - Shot on Kodak Portra 400'
-  },
-  {
-    thumbnail: 'https://via.placeholder.com/300x200?text=Photo+5',
-    fullsize: 'https://via.placeholder.com/1200x800?text=Photo+5+Full+Size',
-    caption: 'Photo 5 - Shot on Ilford HP5 400'
-  },
-  {
-    thumbnail: 'https://via.placeholder.com/300x200?text=Photo+6',
-    fullsize: 'https://via.placeholder.com/1200x800?text=Photo+6+Full+Size',
-    caption: 'Photo 6 - Shot on Kodak Ektar 100'
-  },
-  {
-    thumbnail: 'https://via.placeholder.com/300x200?text=Photo+7',
-    fullsize: 'https://via.placeholder.com/1200x800?text=Photo+7+Full+Size',
-    caption: 'Photo 7 - Shot on Kodak Portra 400'
-  },
-  {
-    thumbnail: 'https://via.placeholder.com/300x200?text=Photo+8',
-    fullsize: 'https://via.placeholder.com/1200x800?text=Photo+8+Full+Size',
-    caption: 'Photo 8 - Shot on Ilford HP5 400'
-  }
+  'https://raw.githubusercontent.com/kingroryg/lprimeroo.github.io/refs/heads/master/assets/000047990002.jpg',
+  'https://via.placeholder.com/1200x800?text=Photo+2',
+  'https://via.placeholder.com/1200x800?text=Photo+3',
 ];
 
 let currentIndex = 0;
 const imageGrid = document.getElementById('imageGrid');
 const modal = document.getElementById('imageModal');
 const modalImage = document.getElementById('modalImage');
-const captionText = document.getElementById('caption');
 
 // Create image grid
 function createImageGrid() {
-  images.forEach((image, index) => {
+  images.forEach((imageUrl, index) => {
     const imageItem = document.createElement('div');
     imageItem.className = 'image-item';
     imageItem.dataset.index = index;
     
     const img = document.createElement('img');
-    img.dataset.src = image.thumbnail; // Use data-src for lazy loading
-    img.alt = image.caption;
+    img.dataset.src = imageUrl; // Use data-src for lazy loading
+    img.alt = 'Photo ' + (index + 1);
     
     imageItem.appendChild(img);
     imageItem.addEventListener('click', () => openModal(index));
@@ -244,7 +192,11 @@ function lazyLoadImages() {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const img = entry.target;
-          img.src = img.dataset.src;
+          // Create a low-res version for the thumbnail by adding size parameters
+          const thumbnailUrl = img.dataset.src.includes('?') ? 
+            img.dataset.src + '&size=300x200' : 
+            img.dataset.src + '?size=300x200';
+          img.src = thumbnailUrl;
           img.removeAttribute('data-src');
           imageObserver.unobserve(img);
         }
@@ -255,7 +207,10 @@ function lazyLoadImages() {
   } else {
     // Fallback for browsers that don't support IntersectionObserver
     lazyImages.forEach(img => {
-      img.src = img.dataset.src;
+      const thumbnailUrl = img.dataset.src.includes('?') ? 
+        img.dataset.src + '&size=300x200' : 
+        img.dataset.src + '?size=300x200';
+      img.src = thumbnailUrl;
       img.removeAttribute('data-src');
     });
   }
@@ -279,13 +234,10 @@ function changeImage(step) {
   updateModalImage();
 }
 
-// Update modal image and caption
+// Update modal image
 function updateModalImage() {
-  const image = images[currentIndex];
-  
-  // Only load the full-size image when needed
-  modalImage.src = image.fullsize;
-  captionText.innerHTML = image.caption;
+  // Load the full-size image
+  modalImage.src = images[currentIndex];
 }
 
 // Close modal when clicking outside the image
