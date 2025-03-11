@@ -8,7 +8,7 @@ A film studio that I started with another friend (stay tuned): <a href='https://
 
 Some of my research can be found here: <a href="https://scholar.google.com/citations?hl=en&user=0RfLLJcAAAAJ&view_op=list_works&sortby=pubdate">https://scholar.google.co.in/citations?user=0RfLLJcAAAAJ</a>
 
-Also building (launching soon): <a href='https://hanshiro.dev'>https://hanshiro.dev</a>
+<!-- Also building (launching soon): <a href='https://hanshiro.dev'>https://hanshiro.dev</a> -->
 
 <!--
 <h2>Press</h2>
