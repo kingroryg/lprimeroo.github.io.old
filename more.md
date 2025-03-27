@@ -5,15 +5,15 @@ title: more...
 
 ## Research:
 
-* [2025] <u>Representation Engineering for Large-Language Models: Survey and Research Challenges</u> <br/> Lukasz Bartoszcze, __Sarthak Munshi__, Bryan Sukidi, Jennifer Yen, Zejia Yang, David Williams-King, Linh Le, Carsten Maple<br/> Submitted to _IEEE Communications Surveys & Tutorials_ [<a href="https://arxiv.org/abs/2502.17601">pdf</a>]
+* [2025] <ins>Representation Engineering for Large-Language Models: Survey and Research Challenges</ins> <br/> Lukasz Bartoszcze, __Sarthak Munshi__, Bryan Sukidi, Jennifer Yen, Zejia Yang, David Williams-King, Linh Le, Carsten Maple<br/> Submitted to _IEEE Communications Surveys & Tutorials_ [<a href="https://arxiv.org/abs/2502.17601">pdf</a>]
   
 <!-- * [2025] Can LLMs threat-model large scale cloud infrastructure? <br /> __Sarthak Munshi__, Swapnil Pathak, Dhivya Chandramouleeswaran<br /> Submitted to the 39th Annual Conference on Neural Information Processing Systems (NeurIPS) [pdf] -->
 
 Attributed for my contributions to the following projects:
-* [2022] <u>A Field Experiment to Study the Effect of Ad-Blocking and Anti-Tracking on Consumer Behavior</u> <br />Cristobal Cheyre, Zijun Ding, Li Jiang, Florian Schaub, Jeremy Thomas, Alessandro Acquisti<br /> _Economics of Digital Services_
+* [2022] <ins>A Field Experiment to Study the Effect of Ad-Blocking and Anti-Tracking on Consumer Behavior</ins> <br />Cristobal Cheyre, Zijun Ding, Li Jiang, Florian Schaub, Jeremy Thomas, Alessandro Acquisti<br /> _Economics of Digital Services_
  [<a href="https://www.law.upenn.edu/live/files/12361-a-field-experiment-to-study-the-effect-of">pdf</a>]
 
-* [2018] <u>Chapel comes of age: Making scalable programming productive</u> <br /> Bradford L Chamberlain, Elliot Ronaghan, Ben Albrecht, Lydia Duncan, Michael Ferguson, Ben Harshbarger, David Iten, David Keaton, Vassily Litvinov, Preston Sahabu, Greg Titus<br /> _Cray User Group_ [<a href="https://chapel-lang.org/publications/cug2018-chapel.pdf">pdf</a>]
+* [2018] <ins>Chapel comes of age: Making scalable programming productive</ins> <br /> Bradford L Chamberlain, Elliot Ronaghan, Ben Albrecht, Lydia Duncan, Michael Ferguson, Ben Harshbarger, David Iten, David Keaton, Vassily Litvinov, Preston Sahabu, Greg Titus<br /> _Cray User Group_ [<a href="https://chapel-lang.org/publications/cug2018-chapel.pdf">pdf</a>]
 
 ## Miscellaneous
 A company that I started with a friend (now acquired!): <a href='https://unsql.ai'>https://unsql.ai</a><br /><br />
