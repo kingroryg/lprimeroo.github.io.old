@@ -9,7 +9,7 @@ title: more...
   
 * [2025] Can LLMs threat-model large scale cloud infrastructure? <br /> __Sarthak Munshi__, Swapnil Pathak, Dhivya Chandramouleeswaran<br /> Submitted to the 39th Annual Conference on Neural Information Processing Systems (NeurIPS) [pdf]
 
-Attributed for my contribution to the following projects:
+Attributed for my contributions to the following projects:
 * [2022] A Field Experiment to Study the Effect of Ad-Blocking and Anti-Tracking on Consumer Behavior <br />Cristobal Cheyre, Zijun Ding, Li Jiang, Florian Schaub, Jeremy Thomas, Alessandro Acquisti<br /> _Economics of Digital Services_
  [<a href="https://www.law.upenn.edu/live/files/12361-a-field-experiment-to-study-the-effect-of">pdf</a>]
 
