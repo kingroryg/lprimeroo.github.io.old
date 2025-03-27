@@ -5,7 +5,7 @@ title: more...
 
 ## Research:
 
-* [2025] Representation Engineering for Large-Language Models: Survey and Research Challenges <br/> Lukasz Bartoszcze, __Sarthak Munshi__, Bryan Sukidi, Jennifer Yen, Zejia Yang, David Williams-King, Linh Le, Kosi Asuzu, Carsten Maple<br/> Submitted to _IEEE Communications Surveys & Tutorials_ [<a href="https://arxiv.org/abs/2502.17601">pdf</a>]
+* [2025] Representation Engineering for Large-Language Models: Survey and Research Challenges <br/> Lukasz Bartoszcze, __Sarthak Munshi__, Bryan Sukidi, Jennifer Yen, Zejia Yang, David Williams-King, Linh Le, Carsten Maple<br/> Submitted to _IEEE Communications Surveys & Tutorials_ [<a href="https://arxiv.org/abs/2502.17601">pdf</a>]
   
 <!-- * [2025] Can LLMs threat-model large scale cloud infrastructure? <br /> __Sarthak Munshi__, Swapnil Pathak, Dhivya Chandramouleeswaran<br /> Submitted to the 39th Annual Conference on Neural Information Processing Systems (NeurIPS) [pdf] -->
 
