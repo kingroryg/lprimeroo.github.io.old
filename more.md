@@ -12,6 +12,7 @@ title: more...
 Attributed for my contribution to the following projects:
 * [2022] A Field Experiment to Study the Effect of Ad-Blocking and Anti-Tracking on Consumer Behavior <br />Cristobal Cheyre, Zijun Ding, Li Jiang, Florian Schaub, Jeremy Thomas, Alessandro Acquisti<br /> _Economics of Digital Services_
  [<a href="https://www.law.upenn.edu/live/files/12361-a-field-experiment-to-study-the-effect-of">pdf</a>]
+
 * [2018] Chapel comes of age: Making scalable programming productive <br /> Bradford L Chamberlain, Elliot Ronaghan, Ben Albrecht, Lydia Duncan, Michael Ferguson, Ben Harshbarger, David Iten, David Keaton, Vassily Litvinov, Preston Sahabu, Greg Titus<br /> _Cray User Group_ [<a href="https://chapel-lang.org/publications/cug2018-chapel.pdf">pdf</a>]
 
 ## Miscellaneous
