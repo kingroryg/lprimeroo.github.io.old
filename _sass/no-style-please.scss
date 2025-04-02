@@ -68,15 +68,19 @@ table, th, td {
 }
 
 code {
-  color: white;
-  background: black;
+  color: #e6e6e6;
+  background: #1e1e1e;
 }
-
 div.highlighter-rouge code {
   display: block;
   overflow-x: auto;
   white-space: pre-wrap;
   padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  line-height: 1.5;
+  border: 1px solid #333;
 }
 
 blockquote {
