@@ -10,9 +10,8 @@ Before diving into implementation, let's clarify what steering vectors actually 
 
 The concept builds on the idea that we can identify directions in the model's latent space that correspond to specific attributes (like politeness, formality, or technical depth). By adding or subtracting along these directions, we can "steer" the model's outputs.
 
-In this post, we'll focus on creating a politeness steering vector, which allows us to guide the model between polite, courteous responses and more direct, concise ones. This has practical applications in tailoring content to different audiences and contexts.
+In this post, we'll focus on creating a politeness steering vector, which allows us to guide the model between polite, courteous responses and more direct, concise ones.
 
-## Setting Up the Environment
 
 First, we need to set up our environment with the necessary libraries:
 
@@ -23,14 +22,10 @@ import numpy as np
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
-# Set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 ```
 
-We'll be using HuggingFace's transformers library to work with Llama-3, along with NumPy and scikit-learn for the vector manipulations.
-
-## Loading the Llama-3 Model
 
 Next, let's load the Llama-3 model:
 
@@ -44,13 +39,8 @@ model = AutoModelForCausalLM.from_pretrained(
     torch_dtype=torch.float16,  # Use half precision to save memory
     device_map="auto"
 )
-
-print(f"Model loaded: {model_name}")
 ```
 
-Make sure you have the necessary permissions to access the model. For Llama-3, you'll likely need to request access through Meta's official channels and configure your HuggingFace token appropriately.
-
-## Collecting Activations for Contrasting Examples
 
 The foundation of creating a steering vector is collecting model activations for contrasting examples. For example, if we want to create a "technical vs. casual" steering vector, we need examples of both technical and casual text.
 
@@ -115,7 +105,6 @@ print(f"Polite tensor shape: {polite_tensor.shape}")
 print(f"Direct tensor shape: {direct_tensor.shape}")
 ```
 
-## Computing the Steering Vector
 
 With our activations collected, we can now compute the steering vector:
 
@@ -134,9 +123,8 @@ steering_vector = steering_vector / torch.norm(steering_vector)
 print(f"Politeness steering vector shape: {steering_vector.shape}")
 ```
 
-This steering vector now represents the direction from "casual" to "technical" in the model's activation space. To steer toward more technical outputs, we would add this vector to the activations; to steer toward more casual outputs, we would subtract it.
+This steering vector now represents the direction from "polite" to "direct" in the model's activation space. To steer towards more polite outputs, we would add this vector to the activations; to steer towards more direct outputs, we would subtract it.
 
-## Visualizing the Steering Vector
 
 It can be helpful to visualize our examples and the steering vector to ensure they make sense:
 
@@ -180,7 +168,6 @@ plt.savefig('politeness_steering_vector_visualization.png')
 plt.show()
 ```
 
-## Applying the Steering Vector During Generation
 
 Now for the interesting part: applying our steering vector during text generation:
 
@@ -241,7 +228,6 @@ print("With direct steering (alpha=-2.0):")
 print(generate_with_steering(prompt, steering_vector, alpha=-2.0))
 ```
 
-## Handling Gotchas and Limitations
 
 As with many ML techniques, there are some gotchas to be aware of:
 
@@ -255,7 +241,6 @@ As with many ML techniques, there are some gotchas to be aware of:
 
 5. **Model Compatibility**: This approach should work for Llama-3, but may need adjustments for other architectures.
 
-## Advanced Applications
 
 Beyond politeness steering, you can create vectors for a wide range of attributes:
 
@@ -266,15 +251,3 @@ Beyond politeness steering, you can create vectors for a wide range of attribute
 - Emotional attributes (empathetic, enthusiastic, neutral)
 
 You can even combine multiple steering vectors with different weights to achieve more nuanced control over the model's outputs. For example, you might want a response that's both polite and technical, or direct but creative.
-
-## Conclusion
-
-Steering vectors provide a powerful and flexible way to guide Llama-3's outputs without the need for fine-tuning. They give us a more granular level of control and allow for on-the-fly adjustments to the model's behavior.
-
-In my experimentation with politeness vectors, I've found that this approach can be particularly valuable in customer-facing applications, where adapting the tone to different contexts is crucial. A polite, deferential tone works well for formal business communications, while a more direct tone might be appropriate for technical instructions or emergency information.
-
-The politeness vector we created here is just one example of how we can steer language models like Llama-3. The same technique can be applied to a wide range of attributes and characteristics, allowing for fine-grained control over the model's outputs.
-
-While this technique is still evolving, it represents an important step toward more controllable and useful language models. As we continue to explore the latent spaces of these models, I expect we'll discover even more powerful ways to guide their behavior.
-
-If you're working with Llama-3 or other language models, I'd encourage you to experiment with steering vectors and share your findings. The field is still young, and there's plenty of unexplored territory to discover.
