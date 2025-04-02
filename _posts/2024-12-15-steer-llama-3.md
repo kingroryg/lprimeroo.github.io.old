@@ -1,4 +1,4 @@
-# Creating Steering Vectors in Python for Llama-3
+# Steer Llama-3
 
 I've been experimenting with Llama-3 lately, and one of the most fascinating aspects I've explored is the concept of steering vectors. These allow us to guide the model's outputs in specific directions without fine-tuning the entire model. In this post, I'll walk through how to create and apply steering vectors to Llama-3 using Python, and share some insights from my experimentation.
 
