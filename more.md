@@ -5,10 +5,10 @@ title: more...
 
 ## Research:
 
+* [2025] CSE-Bench: Can LLMs threat-model large scale cloud infrastructure? <br /> __Anonymous Authors__ <br /> Submitted to the 39th Annual Conference on Neural Information Processing Systems (NeurIPS) [pdf]
+  
 * [2025] <ins>Representation Engineering for Large-Language Models: Survey and Research Challenges</ins> <br/> Lukasz Bartoszcze, __Sarthak Munshi__, Bryan Sukidi, Jennifer Yen, Zejia Yang, David Williams-King, Linh Le, Carsten Maple<br/> Submitted to _ACM Computing Surveys (CSUR)_ [<a href="https://arxiv.org/abs/2502.17601">pdf</a>]<sup>long version</sup>&nbsp;&nbsp;[<a href="https://arxiv.org/abs/2502.17601">pdf</a>]<sup>short control version</sup>
   
-<!-- * [2025] Can LLMs threat-model large scale cloud infrastructure? <br /> __Sarthak Munshi__, Swapnil Pathak, Dhivya Chandramouleeswaran<br /> Submitted to the 39th Annual Conference on Neural Information Processing Systems (NeurIPS) [pdf] -->
-
 Attributed for my contributions to the following projects:
 * [2022] <ins>A Field Experiment to Study the Effect of Ad-Blocking and Anti-Tracking on Consumer Behavior</ins> <br />Cristobal Cheyre, Zijun Ding, Li Jiang, Florian Schaub, Jeremy Thomas, Alessandro Acquisti<br /> _Economics of Digital Services_
  [<a href="https://www.law.upenn.edu/live/files/12361-a-field-experiment-to-study-the-effect-of">pdf</a>]
