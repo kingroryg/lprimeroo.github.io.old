@@ -5,7 +5,7 @@ title: more...
 
 ## Research:
 
-* [2025] <ins>CSE-Bench: Can LLMs threat-model large-scale real-world cloud infrastructure?</ins> <br /> __Anonymous Authors__ <br /> Submitted to the 39th Annual Conference on Neural Information Processing Systems (NeurIPS) [pdf]
+* [2025] <ins>ACSE-Bench: Can LLMs threat-model large-scale real-world cloud infrastructure?</ins> <br /> __Anonymous Authors__ <br /> Submitted to the 39th Annual Conference on Neural Information Processing Systems (NeurIPS) [pdf]
   
 * [2025] <ins>Representation Engineering for Large-Language Models: Survey and Research Challenges</ins> <br/> Lukasz Bartoszcze, __Sarthak Munshi__, Bryan Sukidi, Jennifer Yen, Zejia Yang, David Williams-King, Linh Le, Carsten Maple<br/> Submitted to _ACM Computing Surveys (CSUR)_ [<a href="https://arxiv.org/abs/2502.17601">pdf</a>]<sup>long version</sup>&nbsp;&nbsp;[<a href="https://arxiv.org/abs/2502.17601">pdf</a>]<sup>short control version</sup>
   
