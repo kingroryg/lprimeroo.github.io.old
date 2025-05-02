@@ -7,7 +7,7 @@ title: more...
 
 * [2025] <ins>ACSE-Bench: Can LLMs threat-model large-scale real-world cloud infrastructure?</ins> <br /> __Sarthak Munshi__, Swapnil Pathak, Sonam Ghatode, Thenuga Priyadarshini, Ashutosh Rana, Dhivya Chandramouleeswaran <br /> Submitted to the 39th Annual Conference on Neural Information Processing Systems (NeurIPS) [<a href="">pdf</a>]<sup>preprint</sup>&nbsp;&nbsp;
 
-* [2025] <ins>MAPLE: Modular Attention for Interpretable and Prosocial Multi-Agent Reinforcement Learning</ins> <br /> Zahra Sheikhbahaee, Chang Su, __Sarthak Munshi__, Aniket Didolkar, Juan David Vargas, Nicco Reggente, Leonardo Christov-Moore, Dianbo Liu, Irina Rish, Guillaume Dumas <br /> Submitted to the 39th Annual Conference on Neural Information Processing Systems (NeurIPS) [pdf]
+<!-- * [2025] <ins>MAPLE: Modular Attention for Interpretable and Prosocial Multi-Agent Reinforcement Learning</ins> <br /> Zahra Sheikhbahaee, Chang Su, __Sarthak Munshi__, Aniket Didolkar, Juan David Vargas, Nicco Reggente, Leonardo Christov-Moore, Dianbo Liu, Irina Rish, Guillaume Dumas <br /> Submitted to the 39th Annual Conference on Neural Information Processing Systems (NeurIPS) [pdf] -->
   
 * [2025] <ins>Representation Engineering for Large-Language Models: Survey and Research Challenges</ins> <br/> Lukasz Bartoszcze, __Sarthak Munshi__, Bryan Sukidi, Jennifer Yen, Zejia Yang, David Williams-King, Linh Le, Carsten Maple<br/> Submitted to _ACM Computing Surveys (CSUR)_ [<a href="https://arxiv.org/abs/2502.17601">pdf</a>]<sup>preprint</sup>&nbsp;&nbsp;[<a href="https://arxiv.org/abs/2502.17601">pdf</a>]<sup>journal</sup>
   
