@@ -11,7 +11,7 @@ title: more...
   
 * <span style="display: inline-block; padding: 3px 8px; border-radius: 12px; font-size: 0.75rem; font-weight: bold; color: white; background-color: #5C7AEA;">2025</span> <ins>Representation Engineering for Large-Language Models: Survey and Research Challenges</ins> <br/> Lukasz Bartoszcze, __Sarthak Munshi__, Bryan Sukidi, Jennifer Yen, Zejia Yang, David Williams-King, Linh Le, Carsten Maple<br/> Submitted to _ACM Computing Surveys (CSUR)_ <a href="https://arxiv.org/abs/2502.17601"><span style="display: inline-block; padding: 2px 6px; border-radius: 8px; font-size: 0.7rem; font-weight: bold; color: white; background-color: #dc3545;">pdf</span></a>&nbsp;&nbsp;
   
-Attributed for my contributions to the following projects:
+Attributed for my contributions to the following works:
 * <span style="display: inline-block; padding: 3px 8px; border-radius: 12px; font-size: 0.75rem; font-weight: bold; color: white; background-color: #28a745;">2022</span> <ins>A Field Experiment to Study the Effect of Ad-Blocking and Anti-Tracking on Consumer Behavior</ins> <br />Cristobal Cheyre, Zijun Ding, Li Jiang, Florian Schaub, Jeremy Thomas, Alessandro Acquisti<br /> _Economics of Digital Services_
 <a href="https://www.law.upenn.edu/live/files/12361-a-field-experiment-to-study-the-effect-of"><span style="display: inline-block; padding: 2px 6px; border-radius: 8px; font-size: 0.7rem; font-weight: bold; color: white; background-color: #dc3545;">pdf</span></a>
 
